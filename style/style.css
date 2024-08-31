@@ -3,6 +3,12 @@ html,
 body {
   font-family: "work sans", sans-serif;
 }
+/* sharde style */
+btn-primary
+
+{
+  
+}
 
 /* ______________________header______________________ */
 
@@ -32,4 +38,23 @@ nav li {
 nav li a {
   text-decoration: none;
   color: #424242;
+}
+
+/* ______________________banner______________________ */
+.banner-contant {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+.banner-titel
+
+{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-description
+
+{
+    color: #727272;
 }
