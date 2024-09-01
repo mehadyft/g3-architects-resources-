@@ -1,13 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?famil  y=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 html,
 body {
   font-family: "work sans", sans-serif;
 }
 /* sharde style */
-btn-primary
-
-{
-  
+.btn-primary {
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 20px 25px;
+  border-radius: 8px;
+  background: #ff900e;
 }
 
 /* ______________________header______________________ */
@@ -46,15 +48,11 @@ nav li a {
   text-align: center;
   margin: 0 auto;
 }
-.banner-titel
-
-{
-    font-size: 4rem;
-    font-weight: 700;
-    color: #131313;
+.banner-titel {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #131313;
 }
-.banner-description
-
-{
-    color: #727272;
+.banner-description {
+  color: #727272;
 }
