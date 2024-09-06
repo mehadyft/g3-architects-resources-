@@ -91,13 +91,45 @@ main {
   color: #727272;
   font-weight: 500;
 }
-.teams-titel .of-our {
+.section-title {
+  font-size: 2.8rem;
   font-weight: 700;
 }
 .teams-titel .features {
   color: #ff900e;
   font-weight: 700;
 }
+/* __________somefact_________ */
+.facts-container {
+  display: flex;
+  justify-content: space-around;
+}
+.facts-container .fact-card {
+  border: 1px solid #ff900e;
+  padding:30px;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.fact-number {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.fact-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.fact-description {
+  max-width: 540px;
+}
+
 /* ______________responsiv________________ */
 /* --------mobile--------------- */
 
@@ -112,8 +144,7 @@ main {
   .teams-img-container {
     grid-template-columns: 1fr;
   }
-  .teams-contant
-  {
+  .teams-contant {
     padding-left: 20px;
     padding-right: 20px;
   }
