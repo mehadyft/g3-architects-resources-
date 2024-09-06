@@ -196,11 +196,12 @@ main {
   .features {
     flex-direction: column;
   }
-  .sponsor-companies, .facts-container {
+  .sponsor-companies,
+  .facts-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
     justify-items: center;
-}
+  }
   .feature-img img {
     width: 100%;
     margin-left: 0;
@@ -227,5 +228,14 @@ main {
   }
   header {
     padding: 50px;
+  }
+  .sponsor-companies {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    justify-items: center;
+  }
+  #experience-badge {
+    margin-top: 20px;
+    margin-left: 20px;
   }
 }
