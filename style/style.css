@@ -13,7 +13,9 @@ body {
   cursor: pointer;
   border: 0;
 }
-
+.text-light-gray {
+  color: #727272;
+}
 /* ______________________header______________________ */
 
 header {
@@ -55,40 +57,15 @@ nav li a {
   font-weight: 700;
   color: #131313;
 }
-.banner-description {
-  color: #727272;
-}
 .banner img {
   margin-top: 20px;
   width: 100%;
 }
 
-/* ______________responsiv________________ */
-/* --------mobile--------------- */
-
-@media screen and (max-width: 768px) {
-  header {
-    padding: 20px;
-  }
-  nav {
-    flex-direction: column;
-  }
-}
-
-/* ___________________teblet________________ */
-@media screen and (min-width: 768px) and (max-width: 960px) {
-  nav {
-    flex-direction: column;
-  }
-  header {
-    padding: 50px;
-  }
-}
-
 /* _____________main________________ */
 
 main {
-  margin: 0 auto;
+  margin: 70px auto;
   max-width: 1400px;
 }
 
@@ -117,9 +94,38 @@ main {
 .teams-titel .of-our {
   font-weight: 700;
 }
-.teams-titel .features
-
-{
-  color: #FF900E;
+.teams-titel .features {
+  color: #ff900e;
   font-weight: 700;
+}
+/* ______________responsiv________________ */
+/* --------mobile--------------- */
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 20px;
+  }
+  nav,
+  .teams-contaienr {
+    flex-direction: column;
+  }
+  .teams-img-container {
+    grid-template-columns: 1fr;
+  }
+  .teams-contant
+  {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* ___________________teblet________________ */
+@media screen and (min-width: 768px) and (max-width: 960px) {
+  nav,
+  .teams-contaienr {
+    flex-direction: column;
+  }
+  header {
+    padding: 50px;
+  }
 }
